@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E731DC21FDB1B6100356EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E731DC11FDB1B6100356EF3 /* AppDelegate.swift */; };
+		3E731DC41FDB1B6100356EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E731DC31FDB1B6100356EF3 /* ViewController.swift */; };
+		3E731DC71FDB1B6100356EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E731DC51FDB1B6100356EF3 /* Main.storyboard */; };
+		3E731DC91FDB1B6100356EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E731DC81FDB1B6100356EF3 /* Assets.xcassets */; };
+		3E731DCC1FDB1B6100356EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E731DCA1FDB1B6100356EF3 /* LaunchScreen.storyboard */; };
+		3E731DD71FDB1B6100356EF3 /* ReactiveDogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E731DD61FDB1B6100356EF3 /* ReactiveDogsTests.swift */; };
+		3E731DE21FDB1B6100356EF3 /* ReactiveDogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E731DE11FDB1B6100356EF3 /* ReactiveDogsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E731DD31FDB1B6100356EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E731DB61FDB1B6100356EF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E731DBD1FDB1B6100356EF3;
+			remoteInfo = ReactiveDogs;
+		};
+		3E731DDE1FDB1B6100356EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E731DB61FDB1B6100356EF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E731DBD1FDB1B6100356EF3;
+			remoteInfo = ReactiveDogs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E731DBE1FDB1B6100356EF3 /* ReactiveDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E731DC11FDB1B6100356EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E731DC31FDB1B6100356EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E731DC61FDB1B6100356EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E731DC81FDB1B6100356EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E731DCB1FDB1B6100356EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E731DCD1FDB1B6100356EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E731DD21FDB1B6100356EF3 /* ReactiveDogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveDogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E731DD61FDB1B6100356EF3 /* ReactiveDogsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveDogsTests.swift; sourceTree = "<group>"; };
+		3E731DD81FDB1B6100356EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E731DDD1FDB1B6100356EF3 /* ReactiveDogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveDogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E731DE11FDB1B6100356EF3 /* ReactiveDogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveDogsUITests.swift; sourceTree = "<group>"; };
+		3E731DE31FDB1B6100356EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E731DBB1FDB1B6100356EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E731DCF1FDB1B6100356EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E731DDA1FDB1B6100356EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E731DB51FDB1B6100356EF3 = {
+			isa = PBXGroup;
+			children = (
+				3E731DC01FDB1B6100356EF3 /* ReactiveDogs */,
+				3E731DD51FDB1B6100356EF3 /* ReactiveDogsTests */,
+				3E731DE01FDB1B6100356EF3 /* ReactiveDogsUITests */,
+				3E731DBF1FDB1B6100356EF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E731DBF1FDB1B6100356EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E731DBE1FDB1B6100356EF3 /* ReactiveDogs.app */,
+				3E731DD21FDB1B6100356EF3 /* ReactiveDogsTests.xctest */,
+				3E731DDD1FDB1B6100356EF3 /* ReactiveDogsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E731DC01FDB1B6100356EF3 /* ReactiveDogs */ = {
+			isa = PBXGroup;
+			children = (
+				3E731DC11FDB1B6100356EF3 /* AppDelegate.swift */,
+				3E731DC31FDB1B6100356EF3 /* ViewController.swift */,
+				3E731DC51FDB1B6100356EF3 /* Main.storyboard */,
+				3E731DC81FDB1B6100356EF3 /* Assets.xcassets */,
+				3E731DCA1FDB1B6100356EF3 /* LaunchScreen.storyboard */,
+				3E731DCD1FDB1B6100356EF3 /* Info.plist */,
+			);
+			path = ReactiveDogs;
+			sourceTree = "<group>";
+		};
+		3E731DD51FDB1B6100356EF3 /* ReactiveDogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E731DD61FDB1B6100356EF3 /* ReactiveDogsTests.swift */,
+				3E731DD81FDB1B6100356EF3 /* Info.plist */,
+			);
+			path = ReactiveDogsTests;
+			sourceTree = "<group>";
+		};
+		3E731DE01FDB1B6100356EF3 /* ReactiveDogsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E731DE11FDB1B6100356EF3 /* ReactiveDogsUITests.swift */,
+				3E731DE31FDB1B6100356EF3 /* Info.plist */,
+			);
+			path = ReactiveDogsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E731DBD1FDB1B6100356EF3 /* ReactiveDogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E731DE61FDB1B6100356EF3 /* Build configuration list for PBXNativeTarget "ReactiveDogs" */;
+			buildPhases = (
+				3E731DBA1FDB1B6100356EF3 /* Sources */,
+				3E731DBB1FDB1B6100356EF3 /* Frameworks */,
+				3E731DBC1FDB1B6100356EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveDogs;
+			productName = ReactiveDogs;
+			productReference = 3E731DBE1FDB1B6100356EF3 /* ReactiveDogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E731DD11FDB1B6100356EF3 /* ReactiveDogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E731DE91FDB1B6100356EF3 /* Build configuration list for PBXNativeTarget "ReactiveDogsTests" */;
+			buildPhases = (
+				3E731DCE1FDB1B6100356EF3 /* Sources */,
+				3E731DCF1FDB1B6100356EF3 /* Frameworks */,
+				3E731DD01FDB1B6100356EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E731DD41FDB1B6100356EF3 /* PBXTargetDependency */,
+			);
+			name = ReactiveDogsTests;
+			productName = ReactiveDogsTests;
+			productReference = 3E731DD21FDB1B6100356EF3 /* ReactiveDogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E731DDC1FDB1B6100356EF3 /* ReactiveDogsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E731DEC1FDB1B6100356EF3 /* Build configuration list for PBXNativeTarget "ReactiveDogsUITests" */;
+			buildPhases = (
+				3E731DD91FDB1B6100356EF3 /* Sources */,
+				3E731DDA1FDB1B6100356EF3 /* Frameworks */,
+				3E731DDB1FDB1B6100356EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E731DDF1FDB1B6100356EF3 /* PBXTargetDependency */,
+			);
+			name = ReactiveDogsUITests;
+			productName = ReactiveDogsUITests;
+			productReference = 3E731DDD1FDB1B6100356EF3 /* ReactiveDogsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E731DB61FDB1B6100356EF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Marcel Chaucer";
+				TargetAttributes = {
+					3E731DBD1FDB1B6100356EF3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					3E731DD11FDB1B6100356EF3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E731DBD1FDB1B6100356EF3;
+					};
+					3E731DDC1FDB1B6100356EF3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E731DBD1FDB1B6100356EF3;
+					};
+				};
+			};
+			buildConfigurationList = 3E731DB91FDB1B6100356EF3 /* Build configuration list for PBXProject "ReactiveDogs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E731DB51FDB1B6100356EF3;
+			productRefGroup = 3E731DBF1FDB1B6100356EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E731DBD1FDB1B6100356EF3 /* ReactiveDogs */,
+				3E731DD11FDB1B6100356EF3 /* ReactiveDogsTests */,
+				3E731DDC1FDB1B6100356EF3 /* ReactiveDogsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E731DBC1FDB1B6100356EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E731DCC1FDB1B6100356EF3 /* LaunchScreen.storyboard in Resources */,
+				3E731DC91FDB1B6100356EF3 /* Assets.xcassets in Resources */,
+				3E731DC71FDB1B6100356EF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E731DD01FDB1B6100356EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E731DDB1FDB1B6100356EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E731DBA1FDB1B6100356EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E731DC41FDB1B6100356EF3 /* ViewController.swift in Sources */,
+				3E731DC21FDB1B6100356EF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E731DCE1FDB1B6100356EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E731DD71FDB1B6100356EF3 /* ReactiveDogsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E731DD91FDB1B6100356EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E731DE21FDB1B6100356EF3 /* ReactiveDogsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E731DD41FDB1B6100356EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E731DBD1FDB1B6100356EF3 /* ReactiveDogs */;
+			targetProxy = 3E731DD31FDB1B6100356EF3 /* PBXContainerItemProxy */;
+		};
+		3E731DDF1FDB1B6100356EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E731DBD1FDB1B6100356EF3 /* ReactiveDogs */;
+			targetProxy = 3E731DDE1FDB1B6100356EF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E731DC51FDB1B6100356EF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E731DC61FDB1B6100356EF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E731DCA1FDB1B6100356EF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E731DCB1FDB1B6100356EF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E731DE41FDB1B6100356EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E731DE51FDB1B6100356EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E731DE71FDB1B6100356EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				INFOPLIST_FILE = ReactiveDogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marcel.ReactiveDogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E731DE81FDB1B6100356EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				INFOPLIST_FILE = ReactiveDogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marcel.ReactiveDogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E731DEA1FDB1B6100356EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				INFOPLIST_FILE = ReactiveDogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marcel.ReactiveDogsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveDogs.app/ReactiveDogs";
+			};
+			name = Debug;
+		};
+		3E731DEB1FDB1B6100356EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				INFOPLIST_FILE = ReactiveDogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marcel.ReactiveDogsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveDogs.app/ReactiveDogs";
+			};
+			name = Release;
+		};
+		3E731DED1FDB1B6100356EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				INFOPLIST_FILE = ReactiveDogsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marcel.ReactiveDogsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveDogs;
+			};
+			name = Debug;
+		};
+		3E731DEE1FDB1B6100356EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				INFOPLIST_FILE = ReactiveDogsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marcel.ReactiveDogsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveDogs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E731DB91FDB1B6100356EF3 /* Build configuration list for PBXProject "ReactiveDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E731DE41FDB1B6100356EF3 /* Debug */,
+				3E731DE51FDB1B6100356EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E731DE61FDB1B6100356EF3 /* Build configuration list for PBXNativeTarget "ReactiveDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E731DE71FDB1B6100356EF3 /* Debug */,
+				3E731DE81FDB1B6100356EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E731DE91FDB1B6100356EF3 /* Build configuration list for PBXNativeTarget "ReactiveDogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E731DEA1FDB1B6100356EF3 /* Debug */,
+				3E731DEB1FDB1B6100356EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E731DEC1FDB1B6100356EF3 /* Build configuration list for PBXNativeTarget "ReactiveDogsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E731DED1FDB1B6100356EF3 /* Debug */,
+				3E731DEE1FDB1B6100356EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E731DB61FDB1B6100356EF3 /* Project object */;
+}
